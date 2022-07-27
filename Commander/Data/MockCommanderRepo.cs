@@ -14,7 +14,7 @@ namespace Commander.Data
             {
                 new Command{Id=1, HowTo = "initialize git", Line="git init", Platform="git"},
                 new Command{Id=2, HowTo = "clone repo", Line="git clone", Platform="github"},
-                new Command{Id=1, HowTo = "create nodule module", Line="npm init", Platform="nodejs"}
+                new Command{Id=3, HowTo = "create nodule module", Line="npm init", Platform="nodejs"}
             };
 
             return commands;
