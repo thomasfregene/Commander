@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Commander.Dtos
 {
-    public class CommandCreateDto
+    public class CommandUpdateDto
     {
         [Required]
-        [MaxLength(250)] 
+        [MaxLength(250)]
         public string HowTo { get; set; }
         [Required]
         public string Line { get; set; }

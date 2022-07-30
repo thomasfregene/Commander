@@ -40,5 +40,10 @@ namespace Commander.Data
         {
             throw new NotImplementedException();
         }
+
+        public void UpdateCommandDto(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
